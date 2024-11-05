@@ -15,7 +15,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         <div className="relative p-6 max-w-sm bg-white border border-gray-200 rounded-lg  dark:bg-transparent dark:border-gray-700">
             <div className="relative w-full h-[200px]">
                 <Image
-                    className="rounded-lg border border-gray-200  dark:border-gray-700 object-cover"
+                    className="rounded-lg border border-gray-200  dark:border-gray-700 object-contain"
                     src={project.companyLogoImg}
                     alt="img"
                     fill

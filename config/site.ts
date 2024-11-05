@@ -1,11 +1,11 @@
+import img from "/assets/cropped-IMG_4080.jpg"
 export const siteConfig: any = {
-    name: "Naman Barkiya",
+    name: "Mashkhura Zokirova",
     description:
         "An open source application built using the new router, server components and everything new in Next.js 13.",
-    url: "https://namanbarkiya.com",
-    ogImage: "https://namanbarkiya.com/og.jpg",
+    // url: "",
+    ogImage: {img},
     links: {
-        twitter: "https://twitter.com/naman",
-        github: "https://github.com/naman-barkiya",
+        github: "https://github.com/mzokirova",
     },
 };

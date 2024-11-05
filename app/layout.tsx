@@ -41,8 +41,7 @@ export const metadata = {
     ],
     authors: [
         {
-            name: "namanbarkiya",
-            url: "https://namanbarkiya.com",
+            name: "mashkhurazokirova",
         },
     ],
     creator: "namanbarkiya",
@@ -50,26 +49,7 @@ export const metadata = {
         { media: "(prefers-color-scheme: light)", color: "white" },
         { media: "(prefers-color-scheme: dark)", color: "black" },
     ],
-    openGraph: {
-        type: "website",
-        locale: "en_US",
-        url: siteConfig.url,
-        title: siteConfig.name,
-        description: siteConfig.description,
-        siteName: siteConfig.name,
-    },
-    twitter: {
-        card: "summary_large_image",
-        title: siteConfig.name,
-        description: siteConfig.description,
-        images: [`${siteConfig.url}/og.jpg`],
-        creator: "@namanbarkiya",
-    },
     icons: {
-        icon: "https://res.cloudinary.com/dbfvcn3f6/image/upload/v1692357384/assets/naman-favicon.ico",
-        shortcut:
-            "https://res.cloudinary.com/dbfvcn3f6/image/upload/v1692357294/assets/naman-logo.png",
-        apple: "https://res.cloudinary.com/dbfvcn3f6/image/upload/v1692357294/assets/naman-logo.png",
     },
     manifest: `${siteConfig.url}/site.webmanifest`,
 };

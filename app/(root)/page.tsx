@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-
-import namanImg from "@/public/naman-img.jpg";
+import myImage from "/assets/cropped-IMG_4080.jpg"
 import SkillsCard from "@/components/skills-card";
 import { cn } from "@/lib/utils";
 import { Button, buttonVariants } from "@/components/ui/button";
@@ -39,7 +38,7 @@ export default async function IndexPage() {
                     </Link> */}
                     {/* <div className="max-w-[16rem]"> */}
                     <Image
-                        src={namanImg}
+                        src={myImage}
                         height={100}
                         width={100}
                         sizes="100vw"
@@ -48,10 +47,10 @@ export default async function IndexPage() {
                     />
                     {/* </div> */}
                     <h1 className="font-heading text-3xl sm:text-5xl md:text-6xl lg:text-7xl">
-                        Naman Barkiya
+                        Mashkhura Zokirova
                     </h1>
                     <h3 className="font-heading text-base sm:text-xl md:text-xl lg:text-2xl">
-                        Full Stack Developer
+                        Front end developer
                     </h3>
                     {/* <Accordion
                         type="single"
@@ -94,7 +93,7 @@ export default async function IndexPage() {
                     </p> */}
                     <div className="flex flex-col  mt-10 items-center justify-center sm:flex-row sm:space-x-4 gap-3">
                         <Link
-                            href={"https://github.com/namanbarkiya"}
+                            href={"https://github.com/mzokirova"}
                             target="_blank"
                             className={cn(buttonVariants({ size: "lg" }))}
                         >
@@ -168,7 +167,7 @@ export default async function IndexPage() {
                     </p>
                 </div> */}
             </section>
-            <section
+             {/*<section
                 id="contributions"
                 className="container space-y-6 bg-slate-50 dark:bg-transparent py-10 my-14"
             >
@@ -192,8 +191,7 @@ export default async function IndexPage() {
                     <p className="leading-normal text-muted-foreground sm:text-lg sm:leading-7">
                         See all the relevant skills.
                     </p>
-                </div> */}
-            </section>
+                </div> </section> */}
         </>
     );
 }

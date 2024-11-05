@@ -1,6 +1,7 @@
 import { BiLaugh, BiSolidUser } from "react-icons/bi";
 import { BsInfoCircle, BsQuestionCircle } from "react-icons/bs";
 import { AiFillStar } from "react-icons/ai";
+import SiShadcn from "/assets/shadcn-ui-seeklogo.svg"
 import {
     HiOutlineExternalLink,
     HiOutlineLink,
@@ -59,6 +60,9 @@ import {
     SiGmail,
     SiLinkedin,
     SiTwitter,
+    SiReacthookform,
+    SiReactrouter,
+    SiReactquery,
 } from "react-icons/si";
 import { IoIosGitBranch } from "react-icons/io";
 
@@ -104,7 +108,10 @@ export const Icons = {
     graphql: SiGraphql,
     html5: SiHtml5,
     javascript: SiJavascript,
+    reactquery:SiReactquery,
+    reactrouter:SiReactrouter,
     mongodb: SiMongodb,
+    reacthookform:SiReacthookform,
     mui: SiMui,
     mysql: SiMysql,
     nestjs: SiNestjs,
