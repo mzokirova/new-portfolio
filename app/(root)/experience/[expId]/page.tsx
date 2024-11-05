@@ -7,7 +7,7 @@ import { Icons } from "@/components/icons";
 import { buttonVariants } from "@/components/ui/button";
 import { cn, formatDateFromObj } from "@/lib/utils";
 import { Experiences } from "@/config/experience";
-import myimg from "@/public/cropped-IMG_4080.jpg"
+import myimg from "/cropped-IMG_4080.jpg"
 
 
 import ChipContainer from "@/components/chip-container";

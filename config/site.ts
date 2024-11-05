@@ -1,4 +1,4 @@
-import img from "@/public/cropped-IMG_4080.jpg"
+import img from "/cropped-IMG_4080.jpg"
 export const siteConfig: any = {
     name: "Mashkhura Zokirova",
     description:

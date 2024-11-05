@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import myImage from "@/public/cropped-IMG_4080.jpg"
+import myImage from "/cropped-IMG_4080.jpg"
 import SkillsCard from "@/components/skills-card";
 import { cn } from "@/lib/utils";
 import { Button, buttonVariants } from "@/components/ui/button";
@@ -9,8 +9,7 @@ import { Icons } from "@/components/icons";
 import { pagesConfig } from "@/config/pages";
 import { featuredExperiences } from "@/config/experience";
 import ProjectCard from "@/components/project-card";
-import { featuredContributions } from "@/config/contributions";
-import ContributionCard from "@/components/contribution-card";
+
 // import {
 //     Accordion,
 //     AccordionContent,
