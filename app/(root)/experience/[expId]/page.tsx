@@ -7,7 +7,7 @@ import { Icons } from "@/components/icons";
 import { buttonVariants } from "@/components/ui/button";
 import { cn, formatDateFromObj } from "@/lib/utils";
 import { Experiences } from "@/config/experience";
-import myimg from "/cropped-IMG_4080.jpg"
+import myImage from "@/public/mashhura.jpg"
 
 
 import ChipContainer from "@/components/chip-container";
@@ -73,7 +73,7 @@ export default function Experience({ params }: ExperiencePageProps) {
             className="flex items-center space-x-2 text-sm"
           >
             <Image
-              src={myimg}
+              src={myImage}
               alt={"mashhura"}
               width={42}
               height={42}
