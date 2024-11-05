@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import myImage from "@/assets/cropped-IMG_4080.jpg"
+import myImage from "@/public/cropped-IMG_4080.jpg"
 import SkillsCard from "@/components/skills-card";
 import { cn } from "@/lib/utils";
 import { Button, buttonVariants } from "@/components/ui/button";
